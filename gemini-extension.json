@@ -1,0 +1,10 @@
+{
+  "name": "tapline",
+  "version": "1.0.3",
+  "description": "Structured JSON from YouTube, Airbnb, TikTok, Instagram, Facebook, LinkedIn, Zillow and Google Maps.",
+  "mcpServers": {
+    "tapline": {
+      "httpUrl": "https://api.tapline.sh/mcp"
+    }
+  }
+}
