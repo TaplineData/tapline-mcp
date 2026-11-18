@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "tapline": {
+      "url": "https://api.tapline.sh/mcp"
+    }
+  }
+}

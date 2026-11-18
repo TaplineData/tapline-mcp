@@ -1,0 +1,36 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "sh.tapline/tapline",
+  "title": "Tapline",
+  "description": "Structured JSON from YouTube, Airbnb, TikTok, Instagram, Facebook, LinkedIn, Zillow and Google Maps.",
+  "websiteUrl": "https://tapline.sh/docs/mcp",
+  "repository": {
+    "url": "https://github.com/TaplineData/tapline-mcp",
+    "source": "github"
+  },
+  "version": "1.0.3",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.tapline.sh/mcp",
+      "headers": [
+        {
+          "name": "Authorization",
+          "description": "Optional. Bearer <API key> from https://tapline.sh/dashboard. Without it the client signs in with OAuth.",
+          "placeholder": "Bearer sk_live_...",
+          "isRequired": false,
+          "isSecret": true
+        }
+      ]
+    }
+  ],
+  "icons": [
+    {
+      "src": "https://tapline.sh/tapline-icon-512.png",
+      "mimeType": "image/png",
+      "sizes": [
+        "512x512"
+      ]
+    }
+  ]
+}

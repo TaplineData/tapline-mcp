@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Account or billing
+    url: mailto:hello@tapline.sh
+    about: Email us about your account, credits or billing.
+  - name: Security report
+    url: https://github.com/TaplineData/tapline-mcp/blob/main/SECURITY.md
+    about: Report vulnerabilities by email, not in a public issue.
+  - name: MCP docs
+    url: https://tapline.sh/docs/mcp
+    about: Setup steps for each MCP client.

@@ -1,0 +1,19 @@
+{
+  "inputs": [
+    {
+      "type": "promptString",
+      "id": "tapline-api-key",
+      "description": "Tapline API key",
+      "password": true
+    }
+  ],
+  "servers": {
+    "tapline": {
+      "type": "http",
+      "url": "https://api.tapline.sh/mcp",
+      "headers": {
+        "Authorization": "Bearer ${input:tapline-api-key}"
+      }
+    }
+  }
+}

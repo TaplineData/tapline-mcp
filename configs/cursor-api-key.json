@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "tapline": {
+      "url": "https://api.tapline.sh/mcp",
+      "headers": {
+        "Authorization": "Bearer ${env:TAPLINE_API_KEY}"
+      }
+    }
+  }
+}

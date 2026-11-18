@@ -1,0 +1,3 @@
+[mcp_servers.tapline]
+url = "https://api.tapline.sh/mcp"
+bearer_token_env_var = "TAPLINE_API_KEY"

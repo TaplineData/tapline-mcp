@@ -1,0 +1,28 @@
+name: Endpoint request
+description: Ask for a new source, endpoint or field.
+labels: [endpoint-request]
+body:
+  - type: input
+    id: site
+    attributes:
+      label: Website or source
+      placeholder: https://example.com
+    validations:
+      required: true
+  - type: textarea
+    id: data
+    attributes:
+      label: Data you need
+      description: The pages and the fields you want as JSON.
+    validations:
+      required: true
+  - type: textarea
+    id: use
+    attributes:
+      label: Use case
+      description: What your agent or app does with the data.
+  - type: input
+    id: volume
+    attributes:
+      label: Expected volume
+      placeholder: 10,000 requests/month

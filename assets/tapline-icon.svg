@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 120 120" fill="none" role="img" aria-label="Tapline">
+  <rect x="4" y="4" width="112" height="112" rx="30" fill="#22C55E"/>
+  <polyline points="42,40 64,60 42,80" fill="none" stroke="#06231A" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="68" y="71" width="26" height="9" rx="4.5" fill="#06231A"/>
+</svg>

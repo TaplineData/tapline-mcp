@@ -1,0 +1,61 @@
+name: Bug report
+description: A Tapline MCP tool or endpoint does not work as documented.
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: Do not paste API keys, tokens or personal data.
+  - type: dropdown
+    id: client
+    attributes:
+      label: MCP client
+      options:
+        - Claude (claude.ai or Claude Desktop)
+        - Claude Code
+        - ChatGPT
+        - Codex
+        - Cursor
+        - VS Code
+        - Other
+    validations:
+      required: true
+  - type: dropdown
+    id: auth
+    attributes:
+      label: Authentication
+      options:
+        - OAuth sign-in
+        - API key (Authorization header)
+    validations:
+      required: true
+  - type: input
+    id: tool
+    attributes:
+      label: Tool and endpoint
+      description: The tool and the endpoint path, if any.
+      placeholder: call_endpoint /v1/google-maps/search
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: The prompt or the tool arguments you sent.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected result
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual result
+      description: The error or the response. Include the request id if the response shows one.
+    validations:
+      required: true
+  - type: input
+    id: time
+    attributes:
+      label: Time of the request (UTC)
+      placeholder: 2026-11-18 14:05
